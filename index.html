@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-commerce de kpop</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="dark-mode"> 
+        <div class="logo">
+            <img class="no-border" src="logo.png" alt="Logo">
+        </div>        
+        <h1>Estilo Hallyu</h1>
+        </div>
+        
+    <div class="cart">
+        <img class="no-border" src="carrinho.png" alt="Carrinho de Compras">
+        <span class="cart-count">0</span>
+    </div>
+    </header>
+    
+    <center>
+        <h3>Modo claro</h3>
+    <label class="switch">
+        <input type="checkbox" id="mode-switch">
+      <span class="slider round"></span></center>
+    <main>
+        <div class="slideshow-container">
+            <div class="slide fade">
+                <img src="1.jpg" alt="Imagem 1">
+            </div>
+            <div class="slide fade">
+                <img src="2.jpg" alt="Imagem 2">
+            </div>
+            <div class="slide fade">
+                <img src="3.jpg" alt="Imagem 3">
+            </div>
+            <div class="slide fade">
+                <img src="4.jpg" alt="Imagem 3">
+            </div>
+        </div>
+       <br>
+        <div class="product">
+            <img src="armybomb.png" alt="Light Stick">
+            <h2>Light Stick: Army bomb</h2>
+            <p>R$ 431,00</p>
+            <button class="like-btn" onclick="toggleLike(this)">Curtir</button>
+        </div>
+        <div class="product">
+            <img src="twice2.jpeg" alt="Photocards">
+            <h2>Photocards: Twice - 54 unidades</h2>
+            <p>R$ 30,00</p>
+            <button class="like-btn" onclick="toggleLike(this)">Curtir</button>
+        </div>
+        <div class="product">
+            <img src="livro.jpg" alt="Livro bts">
+            <h2>Livro: Beyond The Story - Bts </h2>
+            <p>R$ 132,01</p>
+            <button class="like-btn" onclick="toggleLike(this)">Curtir</button>
+        </div>
+        <div class="product">
+            <img src="face.jpg" alt="Album">
+            <h2>Album: Face - Jimin of BTS</h2>
+            <p>R$ 170,00</p>
+            <button class="like-btn" onclick="toggleLike(this)">Curtir</button>
+        </div>
+
+        <div class="cart-container">
+            <h2>Carrinho de Compras</h2>
+            <ul class="cart-items"></ul>
+            <button class="checkout-btn">Finalizar Compra</button>
+        </div>
+    </main>
+    <script src="script.js"></script>
+    <footer class="dark-mode1" id="footer">
+            <p>&copy; 2023 Estilo Hallyu</p>
+         </footer>
+</body>
+</html>
